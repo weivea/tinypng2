@@ -1,5 +1,11 @@
 # @weivea/tinypng2
-一个有点2的基于tinypng图片压缩服务的图片压缩工具；只支持png、JPEG格式图片，无需api key
+一个有点2的基于tinypng图片压缩服务的图片压缩工具；只支持png、JPEG格式图片，
+
+**重要的事情说三遍**
+**无需api key**
+**无需api key**
+**无需api key**
+
 
 稳定性依赖于当前网络环境访问 https://tinypng.com/ 的性能
 
