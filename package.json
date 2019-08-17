@@ -1,0 +1,21 @@
+{
+  "name": "tinypng2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "bin/tinyPng.js",
+  "scripts": {
+    "start": "electron ./main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.2"
+  },
+  "dependencies": {
+    "busboy": "^0.3.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5",
+    "form-data": "^2.5.0"
+  }
+}
