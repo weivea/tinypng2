@@ -1,4 +1,4 @@
-# tinyPng2
+# @weivea/tinypng2
 一个有点2的基于tinypng图片压缩服务的图片压缩工具；只支持png、JPEG格式图片，无需api key
 
 稳定性依赖于当前网络环境访问 https://tinypng.com/ 的性能
@@ -13,23 +13,23 @@ node version >=12.4.0
 
 ## Install
 
-`npm install -g tinyPng2`
+`npm install -g @weivea/tinypng2`
 
 ## Usage
 
 ```shell
 cd dirOfImage #进入指定目录
-tinyPng2 *.(png|jpeg)
+tinypng2 *.(png|jpeg)
 ```
 
 ## use it as a module
 
 
 
-`npm install tinyPng2 --save`
+`npm install @weivea/tinypng2 --save`
 
 ```javascript
-const tinyPng = require('../index.js')
+const tinyPng = require('@weivea/tinypng2')
 const imgReadStream = fs.createReadStream(filePath)
 
 tinyPng(imgReadStream).then((resultBuf)=>{

@@ -1,9 +1,11 @@
 {
-  "name": "tinypng2",
+  "name": "@weivea/tinypng2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "bin": "bin/tinyPng.js",
+  "bin": {
+    "tinypng2": "bin/tinyPng.js"
+  },
   "scripts": {
     "start": "electron ./main.js"
   },
